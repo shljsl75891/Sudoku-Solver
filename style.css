@@ -1,0 +1,68 @@
+* {
+    background-color: whitesmoke;
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 5px;
+    color: darkorange;
+    text-align: end;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.box {
+    height: 48px;
+    width: 48px; 
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.box:hover {
+    background-color: aqua;
+}
+
+#Sudoku {
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.GetSudoku-Button,.SolveSudoku-Button  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#Easy, #Medium, #Hard, #Random, #SolveSudoku {
+    display: inline-block;
+    color: darkmagenta;
+    background-color: whitesmoke;
+    padding: 5px 5px;
+    font-size: 25px;
+    border: 3px solid darkgoldenrod;
+    margin-right: 5px;
+}
+
+#Easy:hover, #Medium:hover, #Hard:hover, #Random:hover {
+    background-color: antiquewhite;
+}
+
+#SolveSudoku:hover {
+    background-color: pink;
+}
